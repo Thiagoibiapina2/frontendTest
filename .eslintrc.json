@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "eslint-config-prettier",
+    "@rocketseat/eslint-config/node"
+  ],
+  "rules": {
+    "camelcase": "off",
+    "prettier/prettier": "off"
+  }
 }
